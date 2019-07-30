@@ -6,7 +6,9 @@
 
 int wmain(int args, wchar_t *argv[])
 {
+#if DEBUG
 	std::cin.get();
+#endif
 
 	Launch(argv);
 }
